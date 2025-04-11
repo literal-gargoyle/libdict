@@ -24,9 +24,13 @@
 
 
 ## 🖼️ Screenshots  
-*Coming soon – will include examples of the program UI and features.*
+<h2>PDF to .libdict conversion page.</h2>
+<img src="assets/images/PDf%20to%20libdict.png" alt="PDF to libdict" width="300">
+<h2>Main Page, Unloaded</h2>
+<img src="assets/images/mainpage.png" alt="mainpage" width="300">
+<h2>Main Page, Loaded with information</h2>
+<img src="assets/images/mainpageLoaded.png" alt="mainpageLoaded" width="300">
 
----
 
 ## 🔧 Installation  
 
@@ -52,24 +56,24 @@ Example structure:
 ```json
 {
   "format_version": "1.0",
-  "title": "",
+  "title": "libdictExample",
   "sections": {
     "nouns": [
       {
         "term": "centuri\u014d, centuri\u014dnis",
-        "definition": "centurion (military rank) (m.)"
+        "definition": "centurion"
       }
     ],
     "adjectives": [
       {
         "term": "ing\u0113ns, ing\u0113ns, ing\u0113ns",
-        "definition": "(gen. ing entis) huge"
+        "definition": "huge"
       }
     ],
     "verbs": [
       {
-        "term": "c\u0113nat,",
-        "definition": "c \u0113n\u0101re, c \u0113n\u0101vit dines, to dine, dined"
+        "term": "c\u0113nat",
+        "definition": "dines, to dine, dined"
       }
     ],
     "adverbs": [
